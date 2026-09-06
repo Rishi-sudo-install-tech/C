@@ -2,7 +2,8 @@
 
 int main(){
 
-    printf("Hello,World");
+    printf("Hello,Everyone!\n");
+    printf("This is my first C project.\n");
     return 0; 
 
 }
