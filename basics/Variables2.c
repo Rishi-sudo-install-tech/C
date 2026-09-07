@@ -6,7 +6,7 @@ double Pie = 3.141592653589793238;
 
 double Area = Radius * Radius * Pie;
 //Formulla
-printf("Area of the circle is %lf sq cm." , Area);
+printf("Area of the circle is %.3lf sq cm." , Area);
 
     return 0;
 
