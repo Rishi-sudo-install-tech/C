@@ -1,13 +1,16 @@
 #include <stdio.h>
+#include <stdbool.h>
 int main(){
 
-    int age = 17;
-    if (age>=18){
-        printf("You are Eligible to Vote!!");
-    }
-            else{
-            printf("Not eligible");
-            }
-            return 0;
+    bool LoggedIn = true;
+    bool isAdministrator = false;
+    int Level = 3;
 
+    if (LoggedIn && ( isAdministrator || Level <=2)){
+        printf("Granted");
+    }
+        else{
+            printf("Access denied\n\n");
+        }
+        return 0;
 }
